@@ -468,7 +468,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var BackendService = (function () {
     function BackendService(http) {
         this.http = http;
+<<<<<<< HEAD
         this.api = 'http://138.68.9.174/api/v1';
+=======
+        this.api = 'http://localhost:1337/api/v1';
+>>>>>>> 317a077ca8cedc79f52e5c192a90a4dd9389fb58
         this.user = JSON.parse(localStorage.getItem('user'));
         if (!this.user)
             this.user = {};
@@ -2851,7 +2855,11 @@ var _a;
 /***/ "../../../../../src/app/pages/core/login/login.component.html":
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = "<form (ngSubmit)=\"login(username, password)\">\n  <div class=\"login-container\" flexLayout=\"row\" fxLayoutAlign=\"center center\" flexLayoutWrap>\n    <md-card class=\"login-card\" fxFlex.xs=\"95\" fxFlex.sm=\"70\" fxFlex.md=\"40\" fxFlex.gt-md=\"30\" fxLayout=\"column\">\n      <div class=\"logo-container\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n        <img src=\"capac-deploy-test/assets/img/logo.png\" alt=\"CAPAC\">\n      </div>\n      <md-input-container>\n        <input mdInput [(ngModel)]=\"username\" type=\"text\" name=\"username\" placeholder=\"Nombre de usuario\" required>\n      </md-input-container>\n      <md-input-container>\n        <input mdInput [(ngModel)]=\"password\" type=\"password\" name=\"password\" placeholder=\"Contraseña\" required>\n      </md-input-container>\n      <md-progress-bar *ngIf=\"loader\" mode=\"indeterminate\"></md-progress-bar>\n      <button md-raised-button type=\"submit\" color=\"primary\">Iniciar Sesión</button>\n    </md-card>\n  </div>\n</form>"
+=======
+module.exports = "<form (ngSubmit)=\"login(username, password)\">\n  <div class=\"login-container\" flexLayout=\"row\" fxLayoutAlign=\"center center\" flexLayoutWrap>\n    <md-card class=\"login-card\" fxFlex.xs=\"95\" fxFlex.sm=\"70\" fxFlex.md=\"40\" fxFlex.gt-md=\"30\" fxLayout=\"column\">\n      <div class=\"logo-container\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n        <img src=\"assets/img/logo.png\" alt=\"CAPAC\">\n      </div>\n      <md-input-container>\n        <input mdInput [(ngModel)]=\"username\" type=\"text\" name=\"username\" placeholder=\"Nombre de usuario\" required>\n      </md-input-container>\n      <md-input-container>\n        <input mdInput [(ngModel)]=\"password\" type=\"password\" name=\"password\" placeholder=\"Contraseña\" required>\n      </md-input-container>\n      <md-progress-bar *ngIf=\"loader\" mode=\"indeterminate\"></md-progress-bar>\n      <button md-raised-button type=\"submit\" color=\"primary\">Iniciar Sesión</button>\n    </md-card>\n  </div>\n</form>"
+>>>>>>> 317a077ca8cedc79f52e5c192a90a4dd9389fb58
 
 /***/ }),
 
