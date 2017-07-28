@@ -468,11 +468,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var BackendService = (function () {
     function BackendService(http) {
         this.http = http;
-<<<<<<< HEAD
         this.api = 'http://138.68.9.174/api/v1';
-=======
-        this.api = 'http://localhost:1337/api/v1';
->>>>>>> 317a077ca8cedc79f52e5c192a90a4dd9389fb58
         this.user = JSON.parse(localStorage.getItem('user'));
         if (!this.user)
             this.user = {};
